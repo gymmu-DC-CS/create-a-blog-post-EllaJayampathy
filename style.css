@@ -2,8 +2,14 @@ body {
   font-family: 'Times New Roman', Times, serif;
   margin: 0;
   padding: 0;
-background-color: bisque;}
+background-color: lightgray;}
 
+.centered {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 
 header {
   background-color: #333;
@@ -25,7 +31,29 @@ h1 {
   padding: 20px;
 }
 
-p {outline-color:rgb(255, 208, 0);}
+.topnav {
+  overflow: hidden;
+  background-color: #cc9133b3;
+}
+
+.topnav a { 
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 30px 67px;
+  text-decoration: none ;
+}
+
+.topnav a:hover {
+
+background-color: #cf8920b0;
+color: rgb(243, 241, 236)
+}
+
+
+
+p {outline-color:rgb(79, 67, 12);}
 p.double {outline-style: double;}
 
 article {
