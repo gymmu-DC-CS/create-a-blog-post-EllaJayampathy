@@ -7,7 +7,8 @@ background-color: lightgray;}
 .container {
  position: relative;
 text-align: center;
-color: white;
+color: lightgrey;
+
 top: 20%;
   margin: 0;
 }
@@ -106,68 +107,65 @@ outline-style: double;
 
 }
 
-#SIZE_RELATIVE_TO_A_6-FT_MAN {
+SIZE_RELATIVE_TO_A_6-FT_MAN {
 padding-top: 20px ;
 margin-left: auto;
 width: 100px;
-height: 100px;
-border-radius: 8px;
+border-radius: 2px;
 
 }
 
-#Lion_Appearance { 
+Lion_Appearance { 
 padding-top: 20px;
 margin-left: auto;
 width: 200px;
-height: 200px;
-border-radius: 8px;
+border-radius: 2px;
 
 }
 
 
-#Lion_Distribution {
-  padding-top: 20px;
-  margin-right: auto;
-  width: 200px;
-  height: 300px;
-  border-radius: 8px;
-
-}
-
-
-#Lion_Prides {
-  padding-top: 20px;
-  margin-left: auto;
-  width: 400px ;
-  height: 300px ;
-  border-radius: 8px;
-
-}
-
-
-#Lion_Hunting {
+Lion_Distribution {
   padding-top: 20px;
   margin-right: auto;
   width: 250px;
-  height: 300px ;
-  border-radius: 8px;
+  border-radius: 2px;
+
 
 }
 
-#Lion_Communication {
-  padding-top: 20px;
-  margin-left: auto;
-  width: 200px ;
-  height: 300px ;
-  border-radius: 8px;
 
-}
-
-#Lion_Survival {
+Lion_Prides {
   padding-top: 20px;
   margin-right: auto;
-  width: 200px;
-  border-radius: 8px;
+  width: 250px;
+  border-radius: 2px;
+
+
+}
+
+
+Lion_Hunting {
+  padding-top: 20px;
+  margin-right: auto;
+  width: 250px;
+  border-radius: 2px;
+
+}
+
+Lion_Communication {
+  padding-top: 20px;
+  margin-right: auto;
+  width: 250px;
+  border-radius: 2px;
+
+
+}
+
+Lion_Survival {
+  padding-top: 20px;
+  margin-right: auto;
+  width: 250px;
+  border-radius: 2px;
 
 }
 
@@ -186,6 +184,10 @@ border-radius: 8px;
 }
 
 .column {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
   float: left;
   width: 25%;
   padding: 5px;
@@ -198,5 +200,5 @@ border-radius: 8px;
 }
 
 img {
-  border-radius: 50%;
+  border-radius: 40%;
 }
