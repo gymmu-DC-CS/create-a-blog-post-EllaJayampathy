@@ -89,6 +89,8 @@ header {
 }
 
 .content {
+  background-color: #fff;
+  border: 2px brown;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -98,9 +100,9 @@ header {
 
 p.double {
 
-{outline-color:brown;}
+outline-color:brown;
 
-{outline-style: double;}
+outline-style: double;   
 
 }
 
@@ -165,7 +167,6 @@ border-radius: 8px;
   padding-top: 20px;
   margin-right: auto;
   width: 200px;
-  height: 300px;
   border-radius: 8px;
 
 }
