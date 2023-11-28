@@ -1,11 +1,221 @@
-*,
-*::before,
-*::after {
-  box-sizing: content-box;
+@import url( https://fonts.googleapis.com/css?family=Raleway:300,400);
+
+@font-face {
+    font-family:"Booter - Zero Zero";
+    src: url("Fonts/Booter - Zero Zero.woff") format(woff), 
+    url("Fonts/Booter - Zero Zero.woff2") format(woff2);
+    font-weight: normal;
+    font-style: normal;
 }
 
-body {
-  margin: 0;
-  background-color: lightgray;
-  font-family: sans-serif;
+* {
+box-sizing: border-box;
+font-family: Raleway;
+color: #777;
+}
+
+html, body {
+margin: 0;
+padding: 0;
+}
+
+.nav ul {
+    margin: 0;
+}
+
+.nav li {
+display: inline;
+}
+
+.nav a {
+    display: inline-block;
+padding: .5em;
+color: white;
+text-decoration: none;
+}
+
+.main-nav li {
+padding: 0 5%;
+}
+
+.nav a:hover {
+
+    background-color: rgba(255,255,255, .3)
+}
+
+.main-nav {
+
+text-align: center;
+font-size: 1.1em;
+font-weight: lighter;
+border-bottom: 1px solid rgba(255,255,255, .3);
+}
+
+
+.main-header {
+background-color: rgba(0, 0, 0, .6);
+ background-image: url(https://th.bing.com/th/id/OIP.QBu27F-mZ40cmsgF5mvr5QAAAA?pid=ImgDet&rs=1);
+ background-blend-mode: multiply;
+background-size: cover;
+padding-bottom: 30px;
+}
+
+.singer {
+
+    text-align: center;
+    margin: 0;
+    font-size: 2em;
+    font-family: "Booter - Zero Zero";
+    color: white;
+}
+
+.singer-large {
+font-size: 7em;
+}
+
+.content-section {
+
+margin: 1em;
+}
+
+.container {
+
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+
+.section-header2 {
+
+font-family: "Booter - Zero Zero";
+color: #333;
+text-align: center;
+font: 2.5em;
+}
+
+
+.about-taylor-image {
+
+    float: left;
+    height: 200px;
+    width: 300px;
+    margin: 15px;
+    border-radius: 45%;
+}
+
+.main-footer {
+
+background-color: rgb(255, 171, 227);
+color: white;
+padding: .25em 0;
+}
+
+.main-footer-conatiner {
+display: flex;
+align-items: center;
+}
+
+.main-footer-container ul {
+
+flex-grow: 1;
+text-align: end;
+}
+
+
+.footer-nav li {
+
+    padding: 0 .5em;
+}
+
+.footer-nav img {
+    width: 30px;
+    height: 30px;
+}
+
+.btn {
+
+    text-align: center;
+    vertical-align: middle;
+    padding: .67em;
+}
+
+
+.btn-header {
+    margin: .5em 15% 2em 15%;
+    color: white;
+    border: 2px solid rgb(255, 171, 227);
+    background-color: rgba(255, 255, 255, .1);
+    border-radius: 0 ;
+    font-size: 1,5em;
+    font-weight: lighter;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.btn-header:hover {
+background-color: rgba(255, 255, 255, .3);
+}
+
+.btn-play {
+
+display: block;
+margin: 0 auto;
+color: rgb(255, 171, 227);
+font-size: 3em;
+border-radius: 50%;
+padding: 0;
+width:100px;
+height: 100px;
+}
+
+
+.tour-row {
+
+    border-bottom: 1px solid black;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+}
+
+.tour-row:last-child {
+border-bottom: none;
+}
+
+.tour-item {
+
+    display: inline-block;
+    padding-right: .5em;
+}
+
+.tour-date {
+color: #555;
+font-weight: bold;
+width: 10%;
+}
+
+
+.tour-city {
+width: 42%;
+}
+
+
+.tour-arena {
+
+width: 24%;
+}
+
+.tour-btn {
+    max-width: 19%;
+}
+
+.btn-primary {
+color: white;
+background-color:rgb(255, 171, 227);
+border: none;
+font-weight: bold;
+}
+
+
+.btn-primary:hover {
+
+    background-color: rgb(190, 22, 134);
 }
